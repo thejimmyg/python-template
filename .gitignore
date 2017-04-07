@@ -1,0 +1,4 @@
+*.py[co]
+.env
+dist
+myproject.egg-info/
