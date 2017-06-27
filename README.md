@@ -8,7 +8,7 @@ your `PATH`. On macOS you can do this with [brew](https://brew.sh/) and
 installed, but look for `python-virtualenv` otherwise.
 
 ```
-virtualenv $(which python3) .env
+virtualenv -p $(which python3) .env
 .env/bin/pip install -r requirements.txt
 .env/bin/python setup.py develop
 ```
