@@ -4,10 +4,10 @@ setup(
     # Put a real email and correct details here
     name='myproject',
     version='0.1.0',
-    author='JimmyG',
-    author_email='james@example.com',
+    author='myproject authors',
+    author_email='myproject@example.com',
     packages=['myproject'],
-    url='https://example.com',
+    url='https://myproject.example.com',
     license='MIT',
-    description='An example project structure for getting stuff'
+    description='myproject is an example project structure for python'
 )

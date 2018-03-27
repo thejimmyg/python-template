@@ -1,4 +1,9 @@
 *.py[co]
-.env
+*.sw[op]
+*/__pycache__
+.coverage
+.pytest_cache/
 dist
+docs/_build
 myproject.egg-info/
+venv
